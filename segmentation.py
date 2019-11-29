@@ -15,7 +15,7 @@ mask = cv2.inRange(img, lower, upper)
 
 #bitwise_and mask and orginal image
 res = cv2.bitwise_and(image,image,mask=mask)
-cv2.imwrite('yellow_dress.jpg',res)
+cv2.imwrite('results/yellow_dress.jpg',res)
 
 cv2.imshow('image', image)
 cv2.imshow('result', res)
