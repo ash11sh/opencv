@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 img = cv2.imread('images/before_sunrise_low.jpg')
 
-res = cv2.fastNlMeansDenoisingColored(img, None, 10,10,7,21)
+res = cv2.fastNlMeansDenoisingColored(img, None, 6,10,9,21)
 
 
 cv2.imshow('image', img)
